@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  min-height: 80vh;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.primary-btn {
+  padding: 10px 22px;
+  background: #d4af37;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  background: black;
+  color: white;
+  transform: translateY(-3px);
+}

@@ -1,0 +1,135 @@
+.footer {
+  background: #000;
+  color: white;
+  padding-top: 80px;
+  position: relative;
+}
+
+.footer-wave {
+  position: absolute;
+  top: -30px;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(45deg,#d4af37,#000);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px 40px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  max-width: 300px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.footer-section a {
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.footer-section a:hover {
+  color: #d4af37;
+  transform: translateX(5px);
+}
+
+/* SOCIAL ICONS */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #d4af37;
+}
+
+/* NEWSLETTER */
+.newsletter {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter input {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+}
+
+.newsletter button {
+  padding: 8px 15px;
+  background: #d4af37;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background: white;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #222;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 12px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+}
+
+/* BACK TO TOP */
+.top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background: #d4af37;
+  border: none;
+  
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+}
