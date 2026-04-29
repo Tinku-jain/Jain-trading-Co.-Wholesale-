@@ -19,7 +19,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Jain-trading-Co.-Wholesale-">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
